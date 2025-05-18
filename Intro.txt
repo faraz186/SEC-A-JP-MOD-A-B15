@@ -1,0 +1,10 @@
+HTML (HyperText Markup Language) and 
+CSS (Cascading Style Sheets) are fundamental 
+languages used in web development to create 
+the structure and presentation of web pages.
+
+
+
+JavaScript is a programming language that adds 
+interactivity to websites. You can use it to 
+control just about anything.
