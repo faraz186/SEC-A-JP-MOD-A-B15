@@ -1,9 +1,13 @@
-/* * {
+/* Universal Selector  */
+
+* {
   color: aqua;
   background-color: black;
-} */ 
+} 
 
-/* h1,
+/* Type Selector  */
+
+h1,
 h2,
 h3,
 h4,
@@ -11,7 +15,9 @@ h5,
 h6 {
   color: aqua;
   background-color: black;
-} */
+}
+
+/* Class Selector  */
 
 .p1,
 .p2,
@@ -19,41 +25,46 @@ h6 {
   color: red;
 }
 
-.p4,
-.p5,
-.p6 {
+/* ID Selector  */
+
+#p4,
+#p5,
+#p6 {
   color: blue;
 }
 
-/* a {
+a {
   color: green;
-} */
+}
 
-/* #link1 {
+#link1 {
   color: green;
 }
 
 #link2 {
   color: red;
-} */
+} 
 
-/* ul > li {
+/* Child Selector  */
+
+ul > li {
   color: purple;
 }
 
+/* Descendent Selector  */
 
 ul li {
   color: purple;
-} */
+}
 
-/* h1 + p {
-  background-color: lightsalmon;
-} */
+/* Adjacent Sibling Selector  */
 
-h1 ~ p {
+h1 + p {
   background-color: lightsalmon;
 }
 
-ul > li {
-  color: orange;
+/* General Sibling Selector  */
+
+h1 ~ p {
+  background-color: lightsalmon;
 }
