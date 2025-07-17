@@ -1,0 +1,33 @@
+h1 {
+  color: #b833b4e9;
+  color: rgb(184, 51, 180);
+  color: hsl(302, 57%, 46%);
+  color: purple;
+}
+
+/* color: color name
+   color: hex code
+   color: rgb()
+   color: hsl() */
+
+h1 {
+  color: red;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+  color: black;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+a {
+  color: black;
+  text-decoration: blink;
+}
