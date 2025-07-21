@@ -1,0 +1,97 @@
+/* google fonts library */
+
+
+/* @font-face {
+    font-family: "faraz";
+    src: url(./Roboto_Condensed-ExtraBoldItalic.ttf);
+} */
+
+/* @font-face {
+    font-family: "faraz";
+    src: url(./Roboto_Condensed-ExtraBoldItalic.ttf);
+} */
+
+/* div{
+    font-family: "faraz";
+}
+p{
+    font-size: 35px;
+} */
+
+
+
+
+
+
+
+/* 
+h1{
+    text-transform: capitalize;
+    text-decoration: overline;
+} */
+
+
+/* p{
+    line-height: 32px;
+    word-spacing: 30px;
+} */
+
+
+/* div{
+    text-align: justify;
+} */
+
+/* p{
+    text-indent: 120px;
+} */
+
+/* h1{
+    text-shadow: 0px 0px 15px red;
+} */
+
+
+
+/* pseudo elements */
+
+
+/* p:first-line{
+    color: red;
+    font-weight: bold;
+} */
+
+
+
+/* .singleLetter{
+    font-size: 45px;
+    color: black;
+    font-weight: bold; 
+}
+
+.customWord{
+    font-style: italic;
+} */
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+button:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+h1:hover{
+   text-shadow: 0px 0px 15px black;
+}
+
+input:focus{
+    background-color: lightcoral;
+}
+
+button:active{
+    background-color: orange;
+}
