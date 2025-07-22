@@ -20,60 +20,57 @@ p{
 
 
 
-
-
-
-
-/* 
 h1{
     text-transform: capitalize;
     text-decoration: overline;
-} */
+}
 
 
-/* p{
+p{
     line-height: 32px;
     word-spacing: 30px;
-} */
+}
 
 
-/* div{
+div{
     text-align: justify;
-} */
+}
 
-/* p{
+p{
     text-indent: 120px;
-} */
+}
 
-/* h1{
+h1{
     text-shadow: 0px 0px 15px red;
-} */
+}
 
 
 
 /* pseudo elements */
 
 
-/* p:first-line{
+p:first-line{
     color: red;
     font-weight: bold;
-} */
+}
 
 
 
-/* .singleLetter{
+.singleLetter{
     font-size: 45px;
     color: black;
     font-weight: bold; 
 }
 
+
 .customWord{
     font-style: italic;
-} */
+}
 
 a:link{
     color: red;
 }
+
 
 a:visited{
     color: green;
