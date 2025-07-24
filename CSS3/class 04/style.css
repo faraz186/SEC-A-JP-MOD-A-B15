@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Farooq";
+    src: url(./Bitcount_Cursive-Medium.ttf);
+}
+
+
+p{
+    font-family: "Farooq";
+}
+
+
+.container{
+    min-width: 500px;
+    max-width: 80%;
+    width: 800px;
+    height: 500px;
+    min-height: 300px;
+    max-height: 600px;
+    background-color: bisque;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+div{
+    border: 10px solid red;
+    max-width: 800px;
+    min-width: 300px;
+    width: 500px;
+
+}
+
+p{
+    
+    min-height: 200px;
+    max-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.box{
+    border: 3px solid red;
+    padding: 20px;
+
+}
+
+.box h1{
+    border: 3px solid green;
+    padding: 20px;
+
+}
+
+.box p{
+    border: 3px solid blue;
+    padding: 20px;
+
+}
+
+button{
+    padding: 10px;
+}
+
+p{
+    
+    padding-left: 50px;
+    padding-bottom: 100px;
+    padding-right: 30px;
+    padding-top: 10px;
+
+  
+    padding: 20px;
+    box-shadow: 0px 0px 20px blue;
+
+    border: 3px solid blue;
+    border-radius: 30px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    border-top: 10px double green;
+    border-bottom: 10px solid red;
+    border-right: 10px groove blue;
+    border-left: 10px dashed orange;
+
+
+
+}
