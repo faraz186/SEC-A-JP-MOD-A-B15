@@ -1,0 +1,134 @@
+/* div{
+    border: 5px solid red;
+    text-align: center;
+    width: 300px;
+    margin: auto ;
+} */
+
+/* a{
+    margin-left: 200px;
+} */
+
+/* ul{
+    background-color: orange;
+    padding: 5px;
+    height: 150px;
+}
+
+li{
+    background-color: yellow;
+    margin: 10px;
+    padding: 20px;
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+}
+
+a{
+    background-color: blueviolet;
+    color: white;
+    display:none;
+    text-align: center;
+} */
+
+/* li{
+     background-color: yellow;
+    margin: 10px;
+    padding: 20px;
+    width: 100px;
+    display: inline;
+    
+} */
+
+/* .list2{ */
+    /* visibility: visible; */
+    /* display: none; */
+/* } */
+
+/* p{
+    border-image: url(https://t4.ftcdn.net/jpg/06/31/94/07/360_F_631940703_olFOPib8TNgTO9vXF108GKci7daMsTld.jpg);
+} */
+
+/* img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} */
+
+/* ol{
+    list-style-image:url(https://www.freepngimg.com/thumb/star/1-red-star-png-image-thumb.png); 
+    margin-left: 190px;
+    list-style-position: inside;
+    
+} */
+
+/* table{
+    border: 1px solid black;
+    background-color: lightskyblue;
+    border-collapse: separate;
+    empty-cells: hide;
+    border-spacing: 15px;
+} */
+
+/* tr,td{
+    border: 1px solid black;
+    padding: 5px;
+
+
+}
+
+tr:hover{
+    background-color: rgb(115, 154, 233);
+} */
+
+/* .email{
+    background-image: url(https://icons.veryicon.com/png/o/business/oa-office/mail-227.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-indent: 18px;
+}
+
+.password{
+    background-image: url(https://media.istockphoto.com/id/936681148/vector/lock-icon.jpg?s=612x612&w=0&k=20&c=_0AmWrBagdcee-KDhBUfLawC7Gh8CNPLWls73lKaNVA=);
+    background-size: 19px;
+    background-repeat: no-repeat;
+    text-indent: 18px;
+}
+
+
+input:focus{
+    outline: none;
+}
+
+button{
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+fieldset{
+    width: 250px;
+    margin: auto;
+    border: 1px groove red;
+    border-radius: 5px;
+}
+
+legend{
+    background-color: cyan;
+    color: black;
+    padding: 5px;
+    box-shadow: 0 0 20px cyan;
+    text-align: center;
+    width: 100px;
+} */
+
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+border-bottom: 1px solid green;
+
+}
