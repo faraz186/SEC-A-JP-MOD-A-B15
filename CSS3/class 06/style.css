@@ -1,0 +1,169 @@
+@import url(./style2.css);
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: cyan; */
+}
+
+
+.navbar-layout{
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    font-size: 28px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-layout > ul > li{
+    display: inline;
+    padding: 10px;
+}
+
+.list1{
+    margin-right: 520px;
+}
+
+.navbar-layout>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Style card 1 layout */
+
+.card-layout1{
+    width: 260px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(227, 227, 227);
+    display: inline-block;
+
+}
+
+.card-img{
+    padding: 20px 70px;
+    border-radius: 20px;
+    background-color: royalblue;
+
+}
+
+.card-img >img{
+    padding: 4px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.card-content{
+    background-color: rgb(227, 227, 227);
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}
+
+.card-content>h4{
+    margin-bottom: 10px;
+}
+
+.card-content>p{
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 12px;
+}
+
+.card-content > button{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+
+/* *********************************************************************** */
+
+
+/* position: static, absolute, relative, fixed; */
+
+
+/* .blackBox{
+background-color: black;
+width: 180px;
+display: inline-block;
+height: 150px;
+}
+
+.whiteBox{
+    background-color: white;
+    width: 180px;
+    display: inline-block;
+    height: 150px;
+} */
+
+
+/* img{
+    width: 140px;
+    position: absolute;
+    top: 20px;
+    right: 400px;
+} */
+
+
+/* img{
+    width: 500px;
+    position: fixed;
+    top: 200px;
+    bottom: 350px;
+
+
+} */
+
+
+
+.red{
+background-color: red;
+width: 300px;
+float: left;
+display: inline-block;
+height: 80px;
+}
+
+.blue{
+background-color: blue;
+width: 100px;
+float: left;
+display: inline-block;
+height: 80px;
+}
+
+.orange{
+background-color: orange;
+width: 400px;
+float: left;
+display: inline-block;
+height: 80px;
+}
+
+
+.green{
+background-color: green;
+width: 250px;
+float: left;
+display: inline-block;
+height: 80px;
+}
+
+p{
+    clear: both;
+}
+
+h1{
+    color: red;
+}
