@@ -92,7 +92,7 @@
 /* position: static, absolute, relative, fixed; */
 
 
-/* .blackBox{
+.blackBox{
 background-color: black;
 width: 180px;
 display: inline-block;
@@ -104,7 +104,7 @@ height: 150px;
     width: 180px;
     display: inline-block;
     height: 150px;
-} */
+}
 
 
 /* img{
