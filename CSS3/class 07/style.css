@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: cyan;
+}
+
+.navbar-layout {
+  background-color: brown;
+  color: white;
+  padding: 15px;
+  font-size: 28px;
+  position: fixed;
+
+  width: 100%;
+}
+
+.navbar-layout > ul > li {
+  display: inline;
+  padding: 10px;
+}
+
+.list1 {
+  margin-right: 520px;
+}
+
+.navbar-layout > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-layout1 {
+  width: 260px;
+  margin: 10px;
+  margin: 100px 30px;
+  border-radius: 20px;
+  background-color: rgb(227, 227, 227);
+  display: inline-block;
+  transition: 0.5s ease;
+}
+
+.card-layout1:hover {
+  transform: scale(1.5);
+}
+
+/* transform: scale()
+
+   transition: 
+
+*/
+
+.card-img {
+  padding: 20px 70px;
+  border-radius: 20px;
+  background-color: royalblue;
+}
+
+.card-img > img {
+  padding: 4px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.card-content {
+  background-color: rgb(227, 227, 227);
+  text-align: center;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-content > h4 {
+  margin-bottom: 10px;
+}
+
+.card-content > p {
+  font-size: 13px;
+  color: grey;
+  margin-bottom: 12px;
+}
+
+.card-content > button {
+  background-color: royalblue;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  width: 150px;
+}
+
+#box {
+  background-image: url(https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D);
+  width: 1600px;
+  color: white;
+  height: 700px;
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background: url(https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D)
+    no-repeat top left fixed;
+
+  border: 5px solid red;
+}
+
+.container {
+  background-image: linear-gradient(
+      104deg,
+      rgba(255, 0, 0, 0.5),
+      rgba(0, 128, 0, 0.6),
+      rgba(49, 131, 238, 0.7),
+      rgba(218, 47, 81, 0.7),
+      rgba(214, 210, 16, 0.7)
+    ),
+    url(https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg);
+  width: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.box {
+  width: 800px;
+  height: 500px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  box-shadow: 0px 5px 10px gray;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+img {
+  width: 500px;
+}
+
+/* tablet screen */
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+  img {
+    width: 350px;
+  }
+}
+
+/* Mobile screen */
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: lightsalmon;
+  }
+
+  img {
+    width: 300px;
+  }
+}
