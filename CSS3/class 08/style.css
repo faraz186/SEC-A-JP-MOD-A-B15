@@ -1,0 +1,69 @@
+.container {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+  align-content: flex-start;
+  /* row-gap: 50px;
+  column-gap: 50px; */
+  gap: 50px 20px;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row;
+  flex-wrap: wrap-reverse; */
+  /* flex-flow: row wrap-reverse; */
+
+  /* padding: 10px; */
+  /* width: 900px; */
+}
+
+.div1 {
+  background-color: chartreuse;
+  color: white;
+  padding: 10px;
+  height: 100px;
+  flex-basis: 500px;
+  align-self: end;
+  /* width: 500px; */
+  /* flex-grow: 2; */
+  /* order: 2; */
+}
+
+.div2 {
+  background-color: green;
+  color: white;
+  height: 100px;
+  flex-basis: 1000px;
+  padding: 10px;
+  /* width: 500px; */
+  /* flex-shrink: 0; */
+  /* flex-grow: 2; */
+  /* order: 1; */
+}
+
+.div3 {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  height: 100px;
+  width: 500px;
+  /* flex-grow: 1; */
+  /* order: 5; */
+}
+.div4 {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  height: 100px;
+  width: 500px;
+  /* flex-shrink: 0; */
+  /* order: 3; */
+}
+.div5 {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  height: 100px;
+  width: 500px;
+  /* order: 4; */
+}
