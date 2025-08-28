@@ -1,5 +1,5 @@
 alert("Hello World");
-document.write("Hello World");          
+document.write("Hello World");           
 console.log("Hello World");
 
 var a = 5;
@@ -61,6 +61,7 @@ var b = a - ++a + a++ - ++a - a + ++a + a - a + a++;
         // 2 - 3 + 3 - 5 - 5 + 6 + 6 - 6 + 6
 
 alert(b)
+
 
 
 
