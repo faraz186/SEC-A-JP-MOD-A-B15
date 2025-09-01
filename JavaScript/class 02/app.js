@@ -14,9 +14,10 @@
 // function
 // loop
 
-// alert()
-// document.write()
-// console.log()
+alert()
+document.write()
+console.log()
+
 
 // abc(); js user defined function
 
@@ -26,9 +27,15 @@
 
 // console.log() js builtin method
 
+
+
 // builtin
 
 // user defined
+
+
+
+// types of Error
 
 // runtime error
 
@@ -36,35 +43,44 @@
 
 // result
 
-// alert("faraz");
 
-// document.write("hamza");
 
-// console.log("hello students");
 
-// console.log(50);
+alert("faraz");
+
+document.write("hamza");
+
+console.log("hello students");
+
+console.log(50);
+
+
 
 // variables
 
-// var names = "faraz";
+var names = "faraz";
 
-// console.log(names);
+console.log(names);
 
-// var number = 12;
+var number = 12;
 
-// console.log(number);
+console.log(number);
+
 
 // variable declaration
 
-// var number ;
+var number;
 
-// console.log(number);
+console.log(number);
+
 
 // variable declaration & intialization
 
-// var number1 = 12;
 
-// console.log(number1);
+var number1 = 12;
+
+console.log(number1);
+
 
 // data types
 
@@ -72,21 +88,30 @@
 
 // number 1,2,3,4,5,6,7,8,9,10
 
-// var number;
+// undefined 
 
-// number = 50;
 
-// console.log(number);
+var number;
 
-// var name = "Faraz";
+number = 50;
 
-// console.log(name);
+console.log(number);
 
-// var firstName = "MUHAMMAD";
 
-// var lastName = "FARAZ";
+var name = "Faraz";
 
-// console.log(firstName + " " + lastName);
+console.log(name);
+
+
+
+var firstName = "MUHAMMAD";
+
+var lastName = "FARAZ";
+
+console.log(firstName + " " + lastName);
+
+
+// Legal Ways to create variable name
 
 // camel case ===> fullName, lastName, firstName;
 
@@ -94,57 +119,62 @@
 
 // Pascal Case ===> LastName,FullName
 
-// console.log();
 
-// var firstName = "MUHAMMAD";
+var firstName = "MUHAMMAD";
 
-// var lastName = "FARAZ";
+var lastName = "FARAZ";
 
-// console.log("hello", firstName, lastName, "you are selected for this position");
+console.log("hello", firstName, lastName, "you are selected for this position");
 
-// console.log("hello Muhammad faraz, you are selected for this position");
 
 // + concact, add
 
-// var num1 = "faraz";
+var num1 = "faraz";
 
-// var num2;
+var num2;
 
-// console.log(num1 - num2);
+console.log(num1 - num2);
 
-// var num1 = 5;
-// var num2 = 10;
-// var name = "ali";
+var num1 = 5;
+var num2 = 10;
+var name = "ali";
 
-// console.log(num1 + name + num2);
+console.log(num1 + name + num2);
 
-// var num = "10";
 
-// console.log(typeof num);
+var num = "10";
 
-// var num = 5;
+console.log(typeof num);
 
-// num = num + 1;
 
-// console.log(num);
+
+var num = 5;
+
+num = num + 1;
+
+console.log(num);
+
 
 // post increment , pre increment
 
 // post decrement , pre decrement
 
-// var number = 2;
 
-// console.log("before increment ", number);
+var number = 2;
 
-// ++number;
+console.log("before increment ", number);
 
-// console.log("afterd increment ", number);
+++number;
 
-// var num = 5;
+console.log("after increment ", number);
 
-// var exp = num++ - --num + num-- + num;
 
-// console.log(5 - 5 + 5 + 4);
+
+var num = 5;
+
+var exp = num++ - --num + num-- + num;
+
+console.log(exp);
 
 // var num1 = +prompt("Enter your first number");
 
@@ -173,3 +203,4 @@
 // alert("Welcome to JS Land... \n Happy Coding");
 
 // vi and vii done
+
