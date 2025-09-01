@@ -176,31 +176,37 @@ var exp = num++ - --num + num-- + num;
 
 console.log(exp);
 
-// var num1 = +prompt("Enter your first number");
 
-// var num2 = +prompt("Enter your second number");
+// prompt
 
-// console.log(num1 * num2);
 
-// var firstname = prompt("Enter your first name");
+var num1 = +prompt("Enter your first number");
 
-// var lastname = prompt("Enter your last name");
+var num2 = +prompt("Enter your second number");
 
-// console.log(firstname, lastname);
+console.log(num1 * num2);
+
+
+var firstname = prompt("Enter your first name");
+
+var lastname = prompt("Enter your last name");
+
+console.log(firstname, lastname);
+
+
 
 // Alert Chapter 1
 
 // i)
 
-// alert("welcome to our website");
+alert("welcome to our website");
 
 // ii)
 
-// alert("Error! please enter a valid password");
+alert("Error! please enter a valid password");
 
 // iii)
 
-// alert("Welcome to JS Land... \n Happy Coding");
+alert("Welcome to JS Land... \n Happy Coding");
 
 // vi and vii done
-
