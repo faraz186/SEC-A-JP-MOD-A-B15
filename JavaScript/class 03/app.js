@@ -202,16 +202,3 @@ if (prog_lan === "js") {
 } else {
   console.log("javascript sikh kar ao");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
