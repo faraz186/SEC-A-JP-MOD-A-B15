@@ -1,5 +1,5 @@
 document.write("<h1>Hello <br> JS</h1>");
-           
+            
 document.write("<ol><li>Apple</li> </ol>");
 
 document.write("<p>js stands for javascript</p>");
@@ -202,6 +202,7 @@ if (prog_lan === "js") {
 } else {
   console.log("javascript sikh kar ao");
 }
+
 
 
 
