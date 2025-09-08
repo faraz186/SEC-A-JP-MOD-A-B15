@@ -3,7 +3,7 @@
 // var city1 = "karachi"; 
 // var city2 = "lahore";
 // var city3 = "quetta";
-// var city4 = "islamabad";
+// var city4 = "islamabad"; 
 // var city5 = "multan";
 
 var numbers = [1,2,3,4,5,6,7,8,9];
@@ -369,6 +369,7 @@ else{
 }
 
 }
+
 
 
 
