@@ -1,6 +1,6 @@
 // array
    
-// var city1 = "karachi"; 
+// var city1 = "karachi";  
 // var city2 = "lahore"; 
 // var city3 = "quetta";  
 // var city4 = "islamabad"; 
@@ -369,6 +369,7 @@ else{
 }
 
 }
+
 
 
 
