@@ -9,7 +9,6 @@ var copy = numbers.slice(1, 7);
 numbers.splice(6, 4, "faraz");
 
 
-
 // unshift
 
 numbers.unshift(51, 1561, 65, 151, 5, 15);
@@ -398,4 +397,5 @@ for (var i = 0; i < citiesArr.length; i++) {
 if (matchFound === "no") {
   console.log("city not found");
 }
+
 
