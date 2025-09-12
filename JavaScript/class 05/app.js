@@ -1,5 +1,5 @@
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-             
+              
 // slice()
 
 var copy = numbers.slice(1, 7); 
@@ -397,6 +397,7 @@ for (var i = 0; i < citiesArr.length; i++) {
 if (matchFound === "no") {
   console.log("city not found");
 }
+
 
 
 
