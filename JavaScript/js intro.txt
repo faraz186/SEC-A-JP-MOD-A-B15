@@ -1,5 +1,5 @@
 JavaScript:
-   
+    
 Programming : It is a set of intructions
 
 Categories of Programming:
@@ -16,5 +16,6 @@ Syntax : The way how you write code
 
 
 Variable : It reserves spave on memory
+
 
 
