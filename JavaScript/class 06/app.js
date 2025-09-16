@@ -2,7 +2,7 @@ var userInput = prompt("Enter a string");
       
 var len = userInput.length;
 
-var flag = false;
+var flag = false; 
 
 for (var i = 0; i < len; i++) {
   if (userInput.slice(i, i + 1) === "!") {
@@ -114,6 +114,7 @@ var daysArr = [
 var date = new Date();
 
 console.log(daysArr[date.getDay()]);
+
 
 
 
