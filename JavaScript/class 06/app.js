@@ -1,5 +1,5 @@
 var userInput = prompt("Enter a string");
-  
+   
 var len = userInput.length;
 
 var flag = false;
@@ -114,5 +114,6 @@ var daysArr = [
 var date = new Date();
 
 console.log(daysArr[date.getDay()]);
+
 
 
