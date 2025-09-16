@@ -9,7 +9,7 @@ for (var i = 0; i < len; i++) {
     flag = true;
     alert("! found..");
   }
-}
+} 
 
 if (flag === false) {
   alert("No !  found..");
@@ -114,6 +114,7 @@ var daysArr = [
 var date = new Date();
 
 console.log(daysArr[date.getDay()]);
+
 
 
 
