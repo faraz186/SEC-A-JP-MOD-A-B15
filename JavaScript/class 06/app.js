@@ -13,7 +13,7 @@ for (var i = 0; i < len; i++) {
 
 if (flag === false) {
   alert("No !  found..");
-}
+} 
 
 var str =
   "The New Yorker magazine doesn't allow the phrase World War II. They say it should be World War II.";
@@ -114,6 +114,7 @@ var daysArr = [
 var date = new Date();
 
 console.log(daysArr[date.getDay()]);
+
 
 
 
