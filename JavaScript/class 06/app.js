@@ -1,87 +1,94 @@
-// var userInput = prompt("Enter a string");
+var userInput = prompt("Enter a string");
 
-// var len = userInput.length;
+var len = userInput.length;
 
-// var flag = false;
+var flag = false;
 
-// for (var i = 0; i < len; i++) {
-//   if (userInput.slice(i, i + 1) === "!") {
-//     flag = true;
-//     alert("! found..");
-//   }
-// }
+for (var i = 0; i < len; i++) {
+  if (userInput.slice(i, i + 1) === "!") {
+    flag = true;
+    alert("! found..");
+  }
+}
 
-// if (flag === false) {
-//   alert("No !  found..");
-// }
+if (flag === false) {
+  alert("No !  found..");
+}
 
-// var str =
-//   "The New Yorker magazine doesn't allow the phrase World War II. They say it should be World War II.";
+var str =
+  "The New Yorker magazine doesn't allow the phrase World War II. They say it should be World War II.";
 
-// var findIndex = str.indexOf("World War II");
+var findIndex = str.indexOf("World War II");
 
-// var firstText = str.slice(0, findIndex);
+var firstText = str.slice(0, findIndex);
 
-// var replaceText = "The Second World War";
+var replaceText = "The Second World War";
 
-// var remainText = str.slice(findIndex + 12);
+var remainText = str.slice(findIndex + 12);
 
-// console.log(firstText + replaceText + remainText);
+console.log(firstText + replaceText + remainText);
 
-// console.log(findIndex);
+console.log(findIndex);
 
-// var str = "To be or not to be.";
 
-// console.log(str.lastIndexOf("be"));
 
-// var str =
-//   "The New Yorker magazine doesn't allow the phrase World War II. They say it should be World War II.";
+var str = "To be or not to be.";
 
-// console.log(str.replace("World War II", "The Second World War"));
+console.log(str.lastIndexOf("be"));
 
-// console.log(str.replaceAll("New Yorker", "New York Times"));
 
-// var str = "make something strange";
+var str =
+  "The New Yorker magazine doesn't allow the phrase World War II. They say it should be World War II.";
 
-// console.log(str.slice(0, 1));
 
-// console.log(str.charAt(3));
+console.log(str.replace("World War II", "The Second World War"));
 
-// var str =
-//   "The New Yorker magazine doesn't allow the phrase World War II. They say it should be World War II.";
 
-// console.log(str.replace(/World War II/g, "the second world war"));
+console.log(str.replaceAll("New Yorker", "New York Times"));
 
-// var convert = parseInt("20");
 
-// console.log(typeof convert);
+var str = "make something strange";
 
-// var number = 20;
+console.log(str.slice(0, 1));
 
-// var convert = number.toString();
+console.log(str.charAt(3));
 
-// console.log(typeof convert);
+var str =
+  "The New Yorker magazine doesn't allow the phrase World War II. They say it should be World War II.";
 
-// var random = Math.random();
+console.log(str.replace(/World War II/g, "the second world war"));
 
-// console.log(Number(random.toFixed(2)));
+var convert = parseInt("20");
 
-// var headUser = prompt("Enter head username");
 
-// var tailUser = prompt("Enter tail username");
+console.log(typeof convert);
 
-// var toss = Math.random();
+var number = 20;
 
-// var round = Math.round(toss);
+var convert = number.toString();
 
-// if (round === 0) {
-//   console.log(headUser, " win the game");
-// } else {
-//   console.log(tailUser, " win the game");
-// }
+console.log(typeof convert);
+
+
+var random = Math.random();
+
+console.log(Number(random.toFixed(2)));
+
+var headUser = prompt("Enter head username");
+
+var tailUser = prompt("Enter tail username");
+
+var toss = Math.random();
+
+var round = Math.round(toss);
+
+if (round === 0) {
+  console.log(headUser, " win the game");
+} else {
+  console.log(tailUser, " win the game");
+}
 
 // program to generate random password
-
 
 
 
