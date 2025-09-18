@@ -1,17 +1,18 @@
-// var randomValues =
-//   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()";
+var randomValues =
+  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()";
 
-// var randomValLen = randomValues.length;
+var randomValLen = randomValues.length;
 
-// var passwordGenerator = "";
+var passwordGenerator = "";
 
-// for (var i = 0; i < 10; i++) {
-//   var randomNumbers = Math.floor(Math.random() * randomValLen);
+for (var i = 0; i < 10; i++) {
+  var randomNumbers = Math.floor(Math.random() * randomValLen);
 
-//   passwordGenerator = passwordGenerator + randomValues[randomNumbers];
-// }
+  passwordGenerator = passwordGenerator + randomValues[randomNumbers];
+}
 
-// console.log(passwordGenerator);
+console.log(passwordGenerator);
+
 
 // palindrome program
 
@@ -27,60 +28,64 @@
 
 // zaraf
 
-// var word = "refer";
+var word = "refer";
 
-// var len = word.length;
+var len = word.length;
 
-// var reverse = "";
+var reverse = "";
 
-// for (var i = len - 1; i >= 0; i--) {
-//   reverse = reverse + word[i];
-// }
+for (var i = len - 1; i >= 0; i--) {
+  reverse = reverse + word[i];
+}
 
-// if (reverse === word) {
-//   console.log("it's a palindrome word");
-// } else {
-//   console.log("it's not a palindrome word");
-// }
+if (reverse === word) {
+  console.log("it's a palindrome word");
+} else {
+  console.log("it's not a palindrome word");
+}
 
-// var RamadanMilliSeconds = new Date("Feb 17 2026").getTime();
+var RamadanMilliSeconds = new Date("Feb 17 2026").getTime();
 
-// var currentMilliSeconds = new Date().getTime();
+var currentMilliSeconds = new Date().getTime();
 
-// var diff = RamadanMilliSeconds - currentMilliSeconds;
+var diff = RamadanMilliSeconds - currentMilliSeconds;
 
-// var month = Math.round(diff / (1000 * 60 * 60 * 24 * 30));
+var month = Math.round(diff / (1000 * 60 * 60 * 24 * 30));
 
-// console.log(month);
+console.log(month);
 
-// console.log("ramadan milliseconds", RamadanMilliSeconds);
+console.log("ramadan milliseconds", RamadanMilliSeconds);
 
-// console.log("current milliseconds", currentMilliSeconds);
+console.log("current milliseconds", currentMilliSeconds);
 
-// var daysArr = [
-//   "Sunday",
-//   "Monday",
-//   "tuesday",
-//   "wednesday",
-//   "thursday",
-//   "friday",
-//   "saturday",
-// ];
 
-// console.log(daysArr[date.getDay()]);
-// console.log(date.getTime());
 
-// console.log(date.toString().slice(0, 15));
+var daysArr = [
+  "Sunday",
+  "Monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+];
 
-// var date = new Date();
+console.log(daysArr[date.getDay()]);
+console.log(date.getTime());
 
-// date.setFullYear(2002);
+console.log(date.toString().slice(0, 15));
 
-// date.setMonth(6);
 
-// date.setDate(29);
+var date = new Date();
 
-// console.log(date);
+date.setFullYear(2002);
+
+date.setMonth(6);
+
+date.setDate(29);
+
+console.log(date);
+
 
 // function
 
@@ -100,23 +105,24 @@ faraz(); // function call
 
 
 
-// function calc() {
-//   var RamadanMilliSeconds = new Date("Feb 17 2026").getTime();
+function calc() {
+  var RamadanMilliSeconds = new Date("Feb 17 2026").getTime();
 
-//   var currentMilliSeconds = new Date().getTime();
+  var currentMilliSeconds = new Date().getTime();
 
-//   var diff = RamadanMilliSeconds - currentMilliSeconds;
+  var diff = RamadanMilliSeconds - currentMilliSeconds;
 
-//   var month = Math.round(diff / (1000 * 60 * 60 * 24 * 30));
+  var month = Math.round(diff / (1000 * 60 * 60 * 24 * 30));
 
-//   console.log(month);
+  console.log(month);
 
-//   console.log("ramadan milliseconds", RamadanMilliSeconds);
+  console.log("ramadan milliseconds", RamadanMilliSeconds);
 
-//   console.log("current milliseconds", currentMilliSeconds);
-// }
+  console.log("current milliseconds", currentMilliSeconds);
+}
 
-// calc();
+calc();
+
 
 function add() {
   var num1 = +prompt("Enter first number");
