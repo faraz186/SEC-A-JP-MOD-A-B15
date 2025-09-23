@@ -11,7 +11,7 @@ function add(num1, num2) {
   console.log(num1 + num2);
 }
 
-add(+prompt("Enter first number"), +prompt("Enter second number")); // argument
+add(+prompt("Enter first number"), +prompt("Enter second number")); // argument 
 
 function greet(name) {
   console.log("my name is ", name, "and I am a Instructor");
@@ -163,6 +163,7 @@ function submit() {
     icon: "success",
 });
 }
+
 
 
 
