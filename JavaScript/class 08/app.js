@@ -5,7 +5,7 @@ function abc() {
 for (var i = 1; i <= 6; i++) {
   abc();
 }
-
+ 
 function add(num1, num2) {
   // parameter
   console.log(num1 + num2);
@@ -163,6 +163,7 @@ function submit() {
     icon: "success",
 });
 }
+
 
 
 
