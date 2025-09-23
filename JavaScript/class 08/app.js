@@ -1,5 +1,5 @@
 function abc() {
-  console.log("hello students"); 
+  console.log("hello students");  
 }
 
 for (var i = 1; i <= 6; i++) {
@@ -163,4 +163,5 @@ function submit() {
     icon: "success",
 });
 }
+
 
