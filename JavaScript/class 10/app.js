@@ -121,7 +121,3 @@ function greet() {
 }
 
 setTimeout(greet, 8000);
-
-
-
-
