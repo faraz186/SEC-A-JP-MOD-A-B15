@@ -1,5 +1,5 @@
 var h1Element = document.getElementById("h1");
-          
+           
 var pELement = document.getElementById("p1");
 
 console.log(h1Element.innerText);
@@ -121,6 +121,7 @@ function greet() {
 }
 
 setTimeout(greet, 8000);
+
 
 
 
