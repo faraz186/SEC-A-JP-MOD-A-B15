@@ -1,5 +1,5 @@
 var divELement = document.getElementById("container");
-    
+     
 var divELement = document.childNodes[1].childNodes[1];
  
 console.log(divELement.nodeType);
@@ -66,6 +66,7 @@ divELEMENT.appendChild(pElement);
 divELEMENT.appendChild(aElement);
 
 console.log(h1Element, pElement, aElement);
+
 
 
 
