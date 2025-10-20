@@ -345,17 +345,3 @@ for (var i = 0; i < country_list.length; i++) {
 }
 
 console.log(arr);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
