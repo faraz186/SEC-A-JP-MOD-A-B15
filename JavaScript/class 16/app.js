@@ -1,5 +1,5 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyArYdnLGjvWvqStxPm9rrBoAgSs874wVHE",
+  apiKey: "AIzaSyArYdnLGjvWvqStxPm9rrBoAgSs874wVHE", 
   authDomain: "stopwatch786-19657.firebaseapp.com",
   projectId: "stopwatch786-19657",
   databaseURL: "https://stopwatch786-19657-default-rtdb.firebaseio.com",
@@ -345,3 +345,4 @@ for (var i = 0; i < country_list.length; i++) {
 }
 
 console.log(arr);
+
