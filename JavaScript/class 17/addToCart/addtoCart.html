@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Products</title>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      img {
+        width: 350px !important;
+        height: 200px !important;
+      }
+      .td{
+        border: 1px solid black;
+      }
+      .products_img{
+        width: 150px !important;
+        height: 150px !important;
+
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar layout -->
+
+    <nav class="mb-5 navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+            <span id="counter">0</span>
+            <i class="fs-3 fa-solid fa-cart-shopping"></i>
+        </div>
+    </nav>
+
+    <!-- card 1 layout -->
+
+    <main style="display: flex; flex-wrap: wrap">
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://media.istockphoto.com/id/478536966/photo/business-desk.jpg?s=612x612&w=0&k=20&c=T4wPw27lWe_yBM3giEaDDEiHemkgXMzGZBQDLEM6d7M="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Laptop</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a onclick="addProduct('https://media.istockphoto.com/id/478536966/photo/business-desk.jpg?s=612x612&w=0&k=20&c=T4wPw27lWe_yBM3giEaDDEiHemkgXMzGZBQDLEM6d7M=','Laptop','Some quick example text to build')" href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+
+      <!-- card 2 layout -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">iPhone 15 Pro</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a onclick="addProduct('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000','iPhone 15 Pro','Some quick example text to build')" href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+
+      <!-- card 3 layout -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Headphone Zero</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a onclick="addProduct('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000','Headphone Zero','Some quick example text to build')" href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+
+      <!-- card 4 layout -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWljcm9waG9uZXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Mic</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a onclick="addProduct('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWljcm9waG9uZXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000','Mic','Some quick example text to build')" href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+
+      <!-- card 5 layout -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://images.philips.com/is/image/philipsconsumer/21ff84a4a394415d88f4b0150050b30c?wid=700&hei=700&$pnglarge$"
+          class="w-100 card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Apple LED</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a onclick="addProduct('https://images.philips.com/is/image/philipsconsumer/21ff84a4a394415d88f4b0150050b30c?wid=700&hei=700&$pnglarge$','Apple LED','Some quick example text to build')" href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+    </main>
+
+    <br><br><br>
+
+    <!-- CART LAYOUT -->
+
+    <div class="container-fluid bg-secondary">
+        <h3 class="text-white p-3">Carts</h3>
+    </div>
+
+    <div id="display-box">
+        <table id="trow">
+          
+        </table>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <script src="addtoCart.js"></script>
+
+    <!-- <script>
+        var str = 'faraz';
+        var age = 25;
+
+        // template literals
+
+         console.log(`hello I am ${str}. I am ${age} years old`);
+
+        // console.log("hello I am",str,"I am ",age,'years old');
+        
+
+    </script> -->
+  </body>
+</html>
