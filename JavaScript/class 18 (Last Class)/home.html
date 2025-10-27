@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Home Page</h1>
+
+    <h3 id="getname"></h3>
+
+    <button onclick="signout()">Signout</button>
+
+    <script>
+      var getData = localStorage.getItem("userName");
+
+      var getname = document.getElementById("getname");
+
+      console.log(getData);
+
+      getname.innerHTML = "Name: " + getData;
+
+      function signout() {
+        localStorage.clear();
+        window.location.href = "./index.html";
+      }
+    </script>
+  </body>
+</html>
