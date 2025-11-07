@@ -1,5 +1,5 @@
 // local Storage
-
+ 
 // local storage is a temporary database
 
 // where data is stored.
@@ -42,3 +42,4 @@ var getData1 = localStorage.getItem("email");
 console.log(JSON.parse(getData));
 
 // console.log(getData1);
+
